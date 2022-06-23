@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "com.gboy800.explosiverockets.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "mixins.explosiverockets.refmap.json",
+  "mixins": [
+    "MixinExplosion",
+    "MixinExplosionPacket",
+    "MixinFireworkRocketEntity",
+    "MixinServerWorld"
+  ],
+  "client": [
+    "MixinCPlayNetHandler",
+    "MixinFireworkRocketEntity"
+  ],
+  "minVersion": "0.8"
+}
